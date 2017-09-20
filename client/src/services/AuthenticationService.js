@@ -4,7 +4,7 @@
 import Api from '@/services/Api'
 
 export default {
-  Register (credentials) {
+  register (credentials) {
     return Api().post('register', credentials)
   }
 }
